@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 .container{
     width: 100%;
     display: grid;
@@ -11,6 +14,7 @@
     text-align: center;
     text-decoration: underline;
     text-decoration-thickness: 3px;
+    padding: 10px;
 }
 .navigation{
     border: 3px solid red;
@@ -20,6 +24,7 @@
     width: 50%;
     height: 80px;
     margin-left: 300px;
+    padding-top: 10px;
 }
 ul{
     padding-left: 2px;
@@ -39,6 +44,7 @@ ul{
     border-radius: 20px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-top: 20px;
 }
 .cellscont2{
     border: 2px solid green;
@@ -47,6 +53,7 @@ ul{
     font-size: large;
     font-weight: bold;
     text-align: center;
+    padding-top: 15px;
 }
 .heading2{
     background: linear-gradient(45deg,rgb(235, 5, 5),rgb(237, 237, 24),rgb(24, 214, 24) );
@@ -57,6 +64,7 @@ ul{
     height: 50px;
     text-decoration-color: red;
     margin-bottom: 20px;
+    margin-top: 15px;
 }
 
 /* conatiner3 */
@@ -79,6 +87,7 @@ ul{
     text-decoration: underline;
     font-weight: bold;
     font-size: large;
+    padding-top: 15px;
 }
 .heading3{
     background-color: darkmagenta;
@@ -87,6 +96,7 @@ ul{
     font-size: large;
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 15px;
 }
 /* conatiner4 */
 .container4{
@@ -100,6 +110,7 @@ ul{
     text-align: center;
     font-weight: 600;
     font-size: large;
+    padding-top: 15px;
 }
 #cell11{
     background-color: blueviolet;
@@ -132,4 +143,5 @@ ul{
     background-color: skyblue;
     font-size: large;
     text-align: center;
+    margin-top: 15px;
 }
